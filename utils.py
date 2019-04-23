@@ -215,7 +215,7 @@ class Agent:
         inputs = np.zeros((batch_size, ) + self.input_size)
         targets = np.zeros((batch_size, self.output_size))
 
-        for i, idx in enumerate(np.random.randint(0, len_memory, size=batch_size))
+        for i, idx in enumerate(np.random.randint(0, len_memory, size=batch_size)):
 
             state, action, reward, new_state = self.memory[idx][0]
             game_over = self.memory[idx][1]
