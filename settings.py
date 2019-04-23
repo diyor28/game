@@ -1,0 +1,11 @@
+DEBUG = True
+VIDEO_PATH = 'play.mp4'
+SIZE = (400, 400)
+WEIGHTS = 'model.h5'
+LEARNING_RATE = 0.001
+
+GAMMA = 0.99
+EPS_START = 0.9
+EPS_STOP = 0.3
+EPS_STEPS = 300_000
+
